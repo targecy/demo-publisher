@@ -55,13 +55,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Admin App{" "}
+            Wizard{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Manage your ads, use the wizard to customize the ad space and more!
+            Use the wizard to customize the styling of the ad space to match your website.
           </p>
         </a>
 

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { AdParams, Ad } from "@targecy/sdk";
+import { Ad } from "@targecy/sdk";
 
 export default function Home() {
   
@@ -25,7 +25,7 @@ export default function Home() {
         <code className="font-mono font-bold">{"<Ad />"}</code>
       </p>
       <Ad
-        env="preview"
+        env="production"
         isDemo={true}
         publisher="0x00000000000000000000"
         styling={{ width: "500px", height: "500px", borderRadius: "10px" }}

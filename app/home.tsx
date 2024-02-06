@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Ad } from "@targecy/sdk";
-import { env } from "./page";
+import { env } from "./constants";
 
 export const Home = () => {
   return (

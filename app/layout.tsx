@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Targecy Demo Publisher',
+  title: 'Targecy Demo',
   description: 'Start monetizing your website with Targecy.',
 }
 

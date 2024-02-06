@@ -9,11 +9,12 @@ export const env =
     | "preview"
     | "production") || "development";
 
-
-export default function App() {
+const App = () => {
   return (
     <TargecyTracker env={env}>
       <Home></Home>;
     </TargecyTracker>
   );
-}
+};
+
+export default App;

@@ -32,7 +32,7 @@ export const Home = () => {
             <p>- A <b>list_item</b> Ad</p>
             <p>- A <b>banner_large</b> Ad</p>
             <p>
-              You can customize the styling of the ads to match your websites'!
+              You can customize the styling of the ads to match your website!
               Also, the advertiser tracking functionalities are enabled on this
               demo!
             </p>

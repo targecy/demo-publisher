@@ -22,13 +22,23 @@ export const Home = () => {
       </div>
 
       <div className=" grid grid-cols-2 ">
-        <p style={{width: "30rem"}} className="fixed m-3 w-96 left-0 top-0 flex justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          This is a demo of Targecy. Here you can see two ads: a list_item Ad
-          and a banner_large Ad. You can customize the styling of the ads to
-          match your website. Also, the advertiser tracking functionalities are
-          enabled on this demo!
-        </p>
-        <div className="m-3 ">
+        <div
+          style={{ width: "30rem" }}
+          className="fixed text-primary m-3 w-96 left-0 top-0 flex justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30"
+        >
+          <div>
+            <p className="bold">Welcome to our demo!</p>
+            <p>In this example you can find two different types of ads:</p>
+            <p>- A <b>list_item</b> Ad</p>
+            <p>- A <b>banner_large</b> Ad</p>
+            <p>
+              You can customize the styling of the ads to match your websites'!
+              Also, the advertiser tracking functionalities are enabled on this
+              demo!
+            </p>
+          </div>
+        </div>
+        <div className="m-3">
           <Ad env={env} isDemo={true} publisher="0x00000000000000000000" />
         </div>
       </div>
@@ -57,7 +67,7 @@ export const Home = () => {
         </a>
 
         <a
-          href="https://www.docs.targecy.xyz"
+          href="https://docs.targecy.xyz"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"

@@ -2373,10 +2373,10 @@
     "@tanstack/query-core" "4.36.1"
     use-sync-external-store "^1.2.0"
 
-"@targecy/sdk@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@targecy/sdk/-/sdk-0.3.2.tgz#f43428a46e75e8af611d1177dcd0f053181407a9"
-  integrity sha512-Oj9Rz7yjULWg1mr0UW7pOz6a7So5rGogqt3PxWpQFWRHOj7pTXQLMWZ9dLzC4cHKwdgFLmcQPOsHAmsYSq8j6Q==
+"@targecy/sdk@0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@targecy/sdk/-/sdk-0.3.3.tgz#bf6ff9b6c955535c2ec6f13c542e0d09f45c35f0"
+  integrity sha512-wZ2F6vLcJoBR3oyibJ1eXuXuKz5baP+pEoL0ECff6Lyx+MeoVz191F4GPsLuwwiUuiv49+9WuiKmr9fS5+c6qg==
   dependencies:
     "@0xpolygonid/js-sdk" "^1.0.3"
     "@emotion/react" "^11.10.4"
